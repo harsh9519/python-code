@@ -1,0 +1,8 @@
+a = 3
+b = 4
+c = (a+b)
+
+if (c<4):
+    print ("value is smaller")
+else:
+    print ("value is greater")
