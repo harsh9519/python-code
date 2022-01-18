@@ -6,3 +6,6 @@ if (c<4):
     print ("value is smaller")
 else:
     print ("value is greater")
+    
+    output
+    value is greater
