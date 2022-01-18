@@ -1,11 +1,12 @@
 a = 3
 b = 4
 c = (a+b)
+d = (a-b)
 
-if (c<4):
+if (c<4)==(d<3):
     print ("value is smaller")
 else:
     print ("value is greater")
-    
-    output
-    value is greater
+
+output
+value is greater
