@@ -1,0 +1,11 @@
+a = ["dress","basket","apple"]
+print(a[2])
+
+a.remove('dress')
+
+print(a)
+
+
+output
+
+['basket', 'apple']
