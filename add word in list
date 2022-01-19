@@ -1,0 +1,10 @@
+a = ["dress","basket","apple"]
+print(a[2])
+
+a.append('cricket')
+
+print(a[3])
+
+output
+apple
+cricket
