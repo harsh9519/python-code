@@ -1,0 +1,9 @@
+a = input("enter the no:")
+a = int(a)
+squr = (a*a)
+
+print("the square of no",squr)
+
+output
+enter 2
+the squr is 4
