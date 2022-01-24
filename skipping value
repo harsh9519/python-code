@@ -1,0 +1,7 @@
+a = "good morning."
+b = "harshsharma"
+d = b[1::2]
+print(d)
+
+output
+assam
