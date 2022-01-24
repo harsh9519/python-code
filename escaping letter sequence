@@ -1,0 +1,15 @@
+letter = "dear harsh,this python course is nice! thanks!"
+
+print (letter)
+
+formatted_letter = "dear harsh,\n\tthis python course is nice!\n thanks!"
+
+print(formatted_letter)
+
+
+output
+
+dear harsh,this python course is nice! thanks!
+dear harsh,
+	this python course is nice!
+ thanks!
