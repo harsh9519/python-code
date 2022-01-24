@@ -1,0 +1,16 @@
+a = input("enter the first no:")
+b = input ("enter the second no:")
+
+a = int(a)
+b = int(b)
+
+add = (a+b)
+
+print("the sum of a and b no",add)
+
+
+output
+
+enter the first no:3
+enter the second no:5
+the sum of a and b no 8
