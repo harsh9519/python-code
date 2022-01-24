@@ -1,0 +1,9 @@
+a = "this is a string with double  spaces"
+
+singleSpaces = " "
+doubleSpaces = a.replace("  ",singleSpaces)
+print(doubleSpaces)
+
+output
+
+this is a string with double spaces
