@@ -1,0 +1,8 @@
+a = "good morning."
+b = "harsh"
+
+c = a+ b
+print(c)
+
+output
+good morning.harsh
