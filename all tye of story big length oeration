@@ -1,0 +1,8 @@
+story= "once upom their was a youtuber harsh who upload notes"
+
+print(len(story))
+print(story.endswith("notes"))
+print(story.count("m"))
+print(story.capitalize())
+print(story.find("upom"))
+print(story.replace("upload","harsh"))
