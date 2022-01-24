@@ -1,0 +1,7 @@
+a = "this is a string with double  spaces"
+
+doubleSpaces = a.find("  ")
+print(doubleSpaces)
+
+output
+28
