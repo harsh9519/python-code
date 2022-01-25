@@ -1,0 +1,21 @@
+a = input("enter the first marks:")
+b = input("enter the second marks:")
+c = input("enter the third marks:")
+d = input("enter the four marks:")
+e = input("enter the five  marks:")
+f = input("enter the six marks:")
+
+l1 = [a,b,c,d,e,f]
+
+l1.sort()
+print(l1)
+
+output
+
+enter the first marks:3
+enter the second marks:2
+enter the third marks:3
+enter the four marks:5
+enter the five  marks:3
+enter the six marks:5
+['2', '3', '3', '3', '5', '5']
