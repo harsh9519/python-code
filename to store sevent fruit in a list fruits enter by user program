@@ -1,0 +1,15 @@
+a= input("enter the first fruit name:")
+b= input("enter the second fruit name:")
+c = input("enter the third fruit name:")
+d = input("enter the four fruit name:")
+e = input("enter the five fruit name:")
+f = input("enter the six fruit name:")
+g = input("enter the seven fruit name:")
+
+l1 = [a,b,c,d,e,f,g]
+
+print(l1)
+
+output
+
+all fruit print
