@@ -1,0 +1,28 @@
+l1 = [1,5,6,3,9,5,8]
+l1.sort() #sort are used to arrange ascending order
+print(l1)
+
+l1.reverse() # arrange descending order
+print(l1)
+
+
+l1.append(45) # this are used to add any no/word
+print(l1)
+
+l1.insert(1,544) # inser 544 at index 2
+print(l1)
+
+l1.pop(5) # remove element at index 2
+print(l1)
+
+l1.remove(9)  #remove 9 element in a list
+print(l1)
+
+output
+
+[1, 3, 5, 5, 6, 8, 9]
+[9, 8, 6, 5, 5, 3, 1]
+[9, 8, 6, 5, 5, 3, 1, 45]
+[9, 544, 8, 6, 5, 5, 3, 1, 45]
+[9, 544, 8, 6, 5, 3, 1, 45]
+[544, 8, 6, 5, 3, 1, 45]
