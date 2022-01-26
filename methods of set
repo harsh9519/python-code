@@ -1,0 +1,20 @@
+a = {1,2,3,4}
+#print(a)
+#print(type(a))
+
+# an empty set ctreated
+#b = set()
+#print(type(b))
+#b.add(4)
+#print(b)
+# list are note add in set
+# but tuple are add
+#b.add((2,4,5))
+#print(b)
+
+print(len(a))
+a.remove(2)
+print(a)
+a.pop()
+print(a)
+#
