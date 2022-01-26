@@ -1,0 +1,20 @@
+favlang = {}
+a= input("enter your shubham:")
+b= input("enter your soali:")
+c= input("enter your ankit:")
+d= input("enter your vishal:")
+
+favlang['shubham'] = a
+favlang['soali'] = b
+favlang['ankit'] = c
+favlang['vishal'] = d
+
+print(favlang)
+
+output
+
+enter your shubham:python
+enter your soali:c++
+enter your ankit:c
+enter your vishal:python
+{'shubham': 'python', 'soali': 'c++', 'ankit': 'c', 'vishal': 'python'}
