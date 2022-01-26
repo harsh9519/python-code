@@ -1,0 +1,32 @@
+num1 = int(input("enter number1\n" )) 
+num2 = int(input("enter number2\n" ))
+num3 = int(input("enter number3\n" ))
+num4 = int(input("enter number4\n" ))
+num5 = int(input("enter number5\n" ))
+num6 = int(input("enter number6\n" ))
+num7 = int(input("enter number7\n" ))
+num8 = int(input("enter number8\n" ))
+
+
+myset = {num1,num2,num3,num4,num5,num6,num7,num8}
+print(myset)
+
+output
+
+enter number1
+2
+enter number2
+3
+enter number3
+5
+enter number4
+7
+enter number5
+6
+enter number6
+5
+enter number7
+5
+enter number8
+7
+{2, 3, 5, 6, 7}
