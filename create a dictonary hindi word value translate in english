@@ -1,0 +1,14 @@
+mydict = {"pankha":"fan","vastu":"item"}
+print("option are",mydict.keys())
+
+a= input("enter the hindi word\n")
+
+print("the meaning word is:",mydict[a])
+
+output
+
+option are dict_keys(['pankha', 'vastu'])
+enter the hindi word
+pankha
+the meaning word is: fan
+> 
