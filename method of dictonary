@@ -1,0 +1,14 @@
+mydict = {"fast":"in a quick manner","hash":"a coder"}
+#mydict["fast"] = [1,2,3] #this is used to replace the marks
+#print(mydict["fast"])
+
+#methods of dictornaty
+print(mydict.keys())
+print(type(mydict.keys()))
+print(list(mydict.keys())) #convert in a list
+print(mydict.values())
+print(mydict.item())#print the key value al content
+#update any key value in a dictonary
+updatedict ={"ajjay":"ram"}
+mydict.update(updatedict)
+print(mydict)
