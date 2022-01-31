@@ -1,0 +1,19 @@
+a = int(input("enter the first:")
+e = int(input("enter the second:")
+c = int(input("enter the third:")
+d = int(input("enter the four:")
+
+if (a>c):
+    f1 = a
+else:
+    f1 = c
+
+if(c>e):
+    f2 = c
+else:
+    f2 = e
+
+if(f1>f2):
+    print(str(f1)+"f1 is greater")
+else:
+    print(str(f2)"f2 is greater")
