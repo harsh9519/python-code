@@ -8,3 +8,22 @@ else:
 output
 enter the age:12
 the age is lesser than 18
+
+
+
+
+
+
+logical operator
+
+
+age = int(input("enter the age:"))
+
+if (age>18 and age<25):
+    print("the age is greater than 18")
+else:
+    print("the age is lesser than 18 ")
+
+output
+enter the age:19
+the age is greater than 18
