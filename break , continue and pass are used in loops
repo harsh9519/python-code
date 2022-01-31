@@ -1,0 +1,42 @@
+for i in range(10):#tep size 1 last vala
+    print(i)
+    if i ==5:
+        break
+print("harsh")
+
+output
+0
+1
+2
+3
+4
+5
+harsh
+
+
+continue used
+
+for i in range(10):#tep size 1 last vala
+    
+    if i ==5:
+        continue
+    print(i)
+                                                                                       notes : pass are used to the empty any condition. pass used funct,loop,if.else
+                                                                                                               ex -    if i<0:
+                                                                                                                           pass
+                                                                                                                       print("yes")
+                                                                                                                    
+                                                                                                                    output
+                                                                                                                    yes
+                                                                                                                   
+                                                                                                               
+output
+0
+1                                  
+2
+3
+4
+6                            skip 5 no in continue
+7
+8
+9
