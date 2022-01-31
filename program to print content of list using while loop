@@ -10,3 +10,13 @@ banana
 apple
 watermelon
 mango
+
+this above program run with for loop
+
+fruits = ["banana","apple","watermelon","mango"]
+for item in fruits:
+    print(item)
+
+output
+same
+    
