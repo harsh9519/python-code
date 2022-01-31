@@ -1,0 +1,11 @@
+sub1 = int(input("enter the first\n"))
+sub2= int(input("enter the second\n"))
+sub3 = int(input("enter the third\n"))
+
+
+if (sub1<33 or sub2<33 or sub<33):
+    print("you are fail because less than 33%")
+elif(sub1+sub2+sub3)/3<40:
+    print("youare pass")
+else:
+    print("you are fail")
