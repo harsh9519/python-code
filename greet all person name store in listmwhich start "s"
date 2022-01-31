@@ -1,0 +1,13 @@
+l1 = ["Sachin","Sohan","Rahul"]
+
+for name in l1:
+    if name.startswith("s"):
+        print("hello"+name)
+        
+        
+output
+
+sachin
+sohan
+        
+        
