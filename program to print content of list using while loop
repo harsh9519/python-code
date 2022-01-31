@@ -1,0 +1,12 @@
+fruits = ["banana","apple","watermelon","mango"]
+i=0
+while(i<len(fruits)):
+    print(fruits[i])
+    i = i+1
+    
+output
+
+banana
+apple
+watermelon
+mango
