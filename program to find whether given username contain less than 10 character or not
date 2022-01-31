@@ -1,0 +1,10 @@
+username = "harshsharma1999"
+
+if(len(username))<10:
+    print("false")
+else:
+    print("true")
+
+output
+true
+    
