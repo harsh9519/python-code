@@ -1,0 +1,9 @@
+5!=1x2x3x4x5
+
+num = int(input("enter the no:"))
+factorial = 1
+for i in range(1,num+1):
+    factorial = factorial*i
+#print(f"the factoeial is {factorial}")
+print(str(factorial)+"x"+str(i)+ "=",factorial)
+
