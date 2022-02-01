@@ -7,3 +7,12 @@ print("the value is cm," +str(f))
 output
 
 the value is cm,5.08
+
+
+another one
+
+
+def cm(inch):
+    return (inch* 2.54)
+inch = 2    
+print("the value is cm," +str(cm(inch)))
