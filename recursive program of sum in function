@@ -1,0 +1,14 @@
+def sum_recursive(n):
+    if n==1 or n==0:
+        return 1
+    return sum_recursive(n-1) + n
+     
+print(sum_recursive(6))
+
+
+
+program recursive in factorial
+
+return = n* factorial_recursive(n-1) 
+
+all same above program
