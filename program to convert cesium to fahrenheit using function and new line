@@ -1,0 +1,24 @@
+def farh(cel):
+    return (Cel*(9/5)) + 32
+    
+c = 45
+f = farh(c)
+print("farhrenheit temperature is" +str(f))
+
+output
+113 degree F
+
+
+
+
+program to print /n line at the end in function
+
+print("Hello", end=" ")
+print("How", end=" ")
+print("are", end=" ")
+print("you?", end=" "
+
+
+output
+
+hello how are you?
