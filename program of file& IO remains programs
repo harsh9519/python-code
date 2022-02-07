@@ -1,0 +1,42 @@
+1) copy this.txt file same file content to another file content copy.txt file copy
+with open("this.txt")as f:
+    content =f.read()
+with open("copy.txt","w")as f:
+    f.write(content)
+    
+    
+
+2) program to find out whether a file is identical & matches the content on another file.
+
+f1 = "copy.txt"
+f2 = "this.txt"
+
+with open(file1)as f:
+    f1 = f.read()
+    
+with open(file2)as f:
+    f2 = f.read()    
+    
+if f1==f2:
+    print("files are identical")
+else:
+    print("files are not identical")
+    
+3) program to remove content on a file.    
+filename = "sample.txt"
+with open("sample.txt","w")as f:
+    f.write("")
+    
+
+program to rename a file to "rename_by_python.txt" 
+
+import os
+oldname = ""
+newname= "rename_by_python.txt"
+with open(oldname)as f:
+    content = f.raed()
+    
+with open(newname,"w")as f:
+    f.write(content)
+
+os.remove(oldname)
