@@ -1,0 +1,17 @@
+for i in range (2,21):
+    with open(f"tables/multiplication_table_of_{i}","w")as f:
+        for j in range(1,11):
+            f.write(f"{i}x{j}={i*j}\n")
+            
+    break    
+    
+    
+    
+2) a file contain a word "donkey" multiple time you need to write a program which replace the word is "^&^^^" by updating a same file.
+    
+with open("sample.txt")as f:
+    content = f.read()
+content = content.replace("donkey",#$%^%%)
+with open("sample.txt","w")as f:
+    f.write(content)
+    
