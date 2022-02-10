@@ -1,0 +1,37 @@
+class Railwayform:
+    formtype = "Railwayform"
+    def printdata(self):
+        print(f"Name is {self.name}")
+        print(f"train is {self.train}")
+    
+harryapplication = Railwayform()
+harryapplication.name = "harry"
+harryapplication.train = "rajdhani Express"
+harryapplication.printdata()
+
+
+2) simple game program.
+
+class Remote():
+    pass
+class Player:
+    def moveRight(self):
+        pass
+    def moveleft(self):
+        pass
+    def movetop(self):
+        pass
+    
+remote1 = Remote()
+player1 = Player()
+if(remote1.isLeftPressed()):
+    player1.moveleft()
+    
+3) in function self are used    
+    class Employee():
+    company = "Google"
+    def getSalary(self):
+        print(f"the salary in {self.salary}")
+harry = Employee()
+harry.Salary = 100
+harry.getSalary()
