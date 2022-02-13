@@ -1,0 +1,66 @@
+1) create a class of programmer which can store information a few programmer working at microsoft.
+
+
+class Programmer:
+    company = "Microsoft"
+    
+    def __init__(self, name, product):
+        self.name = name
+        self.product = product
+    def getInfo(self):
+        print(f"the name is {self.name} and product is {self.product}")
+    
+harry = Programmer("harry" , "skype")
+alka = Programmer("alka" , "github")
+harry.getInfo()
+alka.getInfo()
+
+2) class calculator capable of finding the square,cube,squareroot of num.
+
+class Calculator:
+    def __init__(self, num):
+        self.number = num
+    def square(self):
+        print(f"the value of {self.number} square is {self.number **2}")
+    def squareRoot(self):
+        print(f"the value of {self.number} squareRoot is {self.number **0.5}")
+    def cube(self):
+        print(f"the value of {self.number} cube is {self.number **3}")
+  
+a = Calculator(3)
+a.square()
+a.squareRoot()
+a.cube()
+
+3) class train which has method to book a ticket , get status , get fare info under runing train under railways.
+
+class Train:
+    def __init__(self, name, fare, seats):
+        self.name = name
+        self.fare = fare
+        self.seats = seats
+
+    def getStatus(self):
+        print("************")
+        print(f"The name of the train is {self.name}")
+        print(f"The seats available in the train are {self.seats}")
+        print("************")
+
+    def fareInfo(self):
+        print(f"The price of the ticket is: Rs {self.fare}")
+
+    def bookTicket(self):
+        if self.seats>0:
+            print(f"the seats are book!your seat no{self.seats}")
+            self.seats = self.seats - 1
+        else:
+            print("sorry this train is full")   
+           
+           
+
+intercity = Train("Intercity Express: 14015", 90, 300)
+intercity.getStatus() 
+intercity.bookTicket()
+intercity.bookTicket()
+intercity.bookTicket()
+intercity.getStatus()
