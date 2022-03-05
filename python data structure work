@@ -1,0 +1,14 @@
+import pandas as pd
+ser3 = pd.series(5,index["p11","p12","p13","p14"])
+print(ser3)
+
+import pandas as pd
+ser3 = pd.series([1,2,3,4],index["p11","p12","p13","p14"])
+print(ser3["p11"])
+out
+1
+
+import pandas as pd
+lst = ["sun","moon","earth"]
+ser3 = pd.dataframe(lst)
+print(ser3)
