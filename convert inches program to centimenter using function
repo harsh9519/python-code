@@ -16,3 +16,13 @@ def cm(inch):
     return (inch* 2.54)
 inch = 2    
 print("the value is cm," +str(cm(inch)))
+
+
+program to cm in inch?
+
+def inch(cm):
+    
+    return (cm*(0.393701))
+    
+c = inch(12)
+print(c)
